@@ -1,0 +1,25 @@
+/* fonts */
+--heading-font-family: Custom-Demi;
+--body-font-family: Custom-Regular, Arial, sans-serif;
+--fixed-font-family: "Roboto Mono", menlo, consolas, "Liberation Mono", monospace;
+
+/* colors */
+--text-color: #333333;
+--link-color: #d4002a;
+--link-hover-color: Invalid input color;
+--background-color: #ffffff;
+--overlay-background-color: #eeeeee;
+--highlight-background-color: #cccccc;
+
+/* sizes */
+--heading-font-size-xxl: 35px;
+--heading-font-size-xl: 48px;
+--heading-font-size-l: 36px;
+--heading-font-size-m: 24px;
+--heading-font-size-s: 14px;
+--heading-font-size-xs: 12px;
+--body-font-size-xxl: 22.4px;
+--body-font-size-xl: 18px;
+--body-font-size-l: 16px;
+--body-font-size-m: 14px;
+--body-font-size-s: 12.992px;

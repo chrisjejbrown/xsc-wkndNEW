@@ -12,16 +12,16 @@
 
 :root {
   /* colors */
-  --link-color: #202020;
+  --link-color: #d4002a;
   --link-hover-color: #666;
   --link-selected-color: #3C3C3C;
   --link-text-color: #eee;
   --text-color-light: var(--link-text-color);
-  --background-color: rgb(4 25 45 / 55%);
+  --background-color: #ffffff;
   --background-color-light: #fff;
-  --overlay-background-color: #eee;
-  --highlight-background-color: #ffc719;
-  --text-color: #000;
+  --overlay-background-color: #eeeeee;
+  --highlight-background-color: #cccccc;
+  --text-color: #333333;
   --background-color-nav: rgb(255 255 255 / 95%);
   --nav-color: #fff;
   --background-color-dark: #000;
@@ -35,9 +35,9 @@
   --icon-visibility: none;
 
   /* fonts */
-  --body-font-family: adobe-clean-light, 'helvetica neue', helvetica, ubuntu, roboto, noto, sans-serif;
-  --heading-font-family: adobe-clean-regular, 'helvetica neue', helvetica, ubuntu, roboto, noto, sans-serif;
-  --fixed-font-family: 'Roboto Mono', menlo, consolas, 'Liberation Mono', monospace;
+  --heading-font-family: Custom-Demi;
+  --body-font-family: Custom-Regular, Arial, sans-serif;
+  --fixed-font-family: "Roboto Mono", menlo, consolas, "Liberation Mono", monospace;
 
   /* body sizes */
   --body-font-size-m: 22px;
