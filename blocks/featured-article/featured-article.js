@@ -44,7 +44,7 @@ export default async function decorate($block) {
 
   const $pre = document.createElement('p');
   $pre.classList.add('pretitle');
-  $pre.textContent = 'Featured Article';
+  $pre.textContent = 'Don\'t Miss Out';
 
   const $h2 = document.createElement('h2');
   $h2.textContent = title;
