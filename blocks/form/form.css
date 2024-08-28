@@ -272,7 +272,7 @@ main .form-file-wrapper .file-description button {
 }
 
 main form .form-fieldset-wrapper {
-    display: flex;
+    display: block;
     padding: 0;
     flex-direction: column;
 }
@@ -302,4 +302,5 @@ main form .form-fieldset-wrapper {
 
 
 
-.form-container, .avis {background-color: #d4002a !important;}
+.form-container, .avis {background-color: #d4002a !important; text-align: center;}
+main .form > div {flex-direction: column !important;}
