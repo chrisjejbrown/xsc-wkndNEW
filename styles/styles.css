@@ -363,3 +363,5 @@ main .section.highlight {
 body.noscroll {
   overflow: hidden;
 }
+
+main .scroll-container .card-content .detail-info-rail {background: #}
