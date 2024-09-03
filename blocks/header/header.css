@@ -318,6 +318,6 @@ header nav .nav-tools form select {
   padding: 3px 0;
   margin: 0 5px;
 }
-
+#avisbook {display: flex;}
 #avisbook .field-wrapper {width: 25%; display: inline;}
 #avisbook .form-submit {display: block;}
