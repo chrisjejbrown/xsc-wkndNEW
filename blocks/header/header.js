@@ -162,7 +162,7 @@ export default async function decorate(block) {
     const avisbook = document.createElement('div');
     avisbook.id = 'avisbook';
     avisbook.innerHTML = html;
-    avisbook.innerHTML = "<div class=\"form block\" data-block-name=\"form\"><div><div><a href=\"/forms/language.json\">"+navForm+".json</a></div></div</div>";
+    avisbook.innerHTML = "<div class=\"form block\" data-block-name=\"form\"><div><div><a href=\"/forms/avisbook.json\">"+navForm+".json</a></div></div</div>";
   
       loadBlocks(avisbook).then(() => {
         avisbook.style.setProperty('display', 'block');
