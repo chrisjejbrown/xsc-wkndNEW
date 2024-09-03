@@ -161,6 +161,7 @@ export default async function decorate(block) {
     const navForm = getMetadata('signupform');
     const avisbook = document.createElement('div');
     avisbook.id = 'avisbook';
+    avisbook.className = "form-container";
     avisbook.innerHTML = html;
     avisbook.innerHTML = "<div class=\"form block\" data-block-name=\"form\"><div><div><a href=\"https://main--xsc-wkndnew--chrisjejbrown.hlx.live/forms/bookadventure.json\">"+navForm+".json</a></div></div</div>";
   
