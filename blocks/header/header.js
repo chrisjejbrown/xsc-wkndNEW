@@ -163,7 +163,7 @@ export default async function decorate(block) {
     avisbook.id = 'avisbook';
     avisbook.className = "form-container form-wrapper";
     avisbook.innerHTML = html;
-    avisbook.innerHTML = "<div class=\"form block\" data-block-name=\"form\"><div><div><a href=\"https://main--xsc-wkndnew--chrisjejbrown.hlx.live/forms/bookadventure.json\">"+navForm+".json</a></div></div</div>";
+    avisbook.innerHTML = "<div class=\"form block flex\" data-block-name=\"form\"><div><div><a href=\"https://main--xsc-wkndnew--chrisjejbrown.hlx.live/forms/bookadventure.json\">"+navForm+".json</a></div></div</div>";
   
       loadBlocks(avisbook).then(() => {
         avisbook.style.setProperty('display', 'block');
