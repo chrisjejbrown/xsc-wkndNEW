@@ -160,9 +160,8 @@ export default async function decorate(block) {
 
     const navForm = getMetadata('signupform');
 
-    const formHTML = "<div class=\"form\"><div><div><a href=\"/forms/language.json\">https://main--xsc-wkndnew--chrisjejbrown.hlx.page/forms/language.json</a></div></div</div>";
+    const formHTML = "<div class=\"form block\"><div><div><a href=\"/forms/language.json\">"+navForm+".json</a></div></div</div>";
     
-      formHTML.classList.add('block');
       formHTML.setAttribute('data-block-name', 'form');
       loadBlocks(formHTML).then(() => {
         formHTML.style.setProperty('display', 'block');
