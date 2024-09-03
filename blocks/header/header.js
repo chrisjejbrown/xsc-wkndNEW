@@ -103,11 +103,12 @@ export default async function decorate(block) {
     nav.id = 'nav';
     nav.innerHTML = html;
 
-    const classes = ['brand', 'sections', 'tools','signup'];
+    const classes = ['brand', 'sections', 'tools'];
     classes.forEach((c, i) => {
       const section = nav.children[i];
       if (section) section.classList.add(`nav-${c}`);
-    });
+    })
+    ;
 
     const navSections = nav.querySelector('.nav-sections');
     if (navSections) {
@@ -127,6 +128,7 @@ export default async function decorate(block) {
           });
         }
       });
+
     }
 
     // hamburger for mobile
@@ -146,6 +148,7 @@ export default async function decorate(block) {
     const navWrapper = document.createElement('div');
     navWrapper.className = 'nav-wrapper';
     navWrapper.append(nav);
+
     const form = nav.querySelector('.form');
     if (form) {
       form.classList.add('block');
@@ -154,6 +157,19 @@ export default async function decorate(block) {
         form.style.setProperty('display', 'block');
       });
     }
+
+    const navForm = getMetadata('signupform');
+
+    const formHTML = "<div class=\"form\"><div><div><a href=\"/forms/language.json\">https://main--xsc-wkndnew--chrisjejbrown.hlx.page/forms/language.json</a></div></div</div>";
+    
+      formHTML.classList.add('block');
+      formHTML.setAttribute('data-block-name', 'form');
+      loadBlocks(formHTML).then(() => {
+        formHTML.style.setProperty('display', 'block');
+      });
+  
+      navWrapper.append(formHTML);
+
     block.append(navWrapper);
   }
 }
