@@ -166,7 +166,7 @@ export default async function decorate(block) {
     avisbook.innerHTML = "<div class=\"form block\" data-block-name=\"form\"><div><div><a href=\"https://main--xsc-wkndnew--chrisjejbrown.hlx.live/forms/bookadventure.json\">"+navForm+".json</a></div></div</div>";
   
       loadBlocks(avisbook).then(() => {
-        avisbook.style.setProperty('display', 'block');
+        avisbook.style.setProperty('display', 'flex');
       });
   
       navWrapper.append(avisbook);
