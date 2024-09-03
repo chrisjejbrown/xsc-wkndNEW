@@ -159,15 +159,17 @@ export default async function decorate(block) {
     }
 
     const navForm = getMetadata('signupform');
-
-    const formHTML = "<div class=\"form block\"><div><div><a href=\"/forms/language.json\">"+navForm+".json</a></div></div</div>";
-    
-      formHTML.setAttribute('data-block-name', 'form');
-      loadBlocks(formHTML).then(() => {
-        formHTML.style.setProperty('display', 'block');
+    const avisbook = document.createElement('div');
+    avisbook.id = 'avisbook';
+    avisbook.innerHTML = html;
+    avisbook.innerHTML = "<div class=\"form block\"><div><div><a href=\"/forms/language.json\">"+navForm+".json</a></div></div</div>";
+  
+      avisbook.setAttribute('data-block-name', 'form');
+      loadBlocks(avisbook).then(() => {
+        avisbook.style.setProperty('display', 'block');
       });
   
-      navWrapper.append(formHTML);
+      navWrapper.append(avisbook);
 
     block.append(navWrapper);
   }
