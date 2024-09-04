@@ -319,6 +319,6 @@ header nav .nav-tools form select {
   margin: 0 5px;
 }
 #avisbook {background-color: #d4002a !important;}
-#avisbook form {display: flex;margin: 0 auto; max-width: 800px; padding: 40px;}
+#avisbook .form {display: flex;margin: 0 auto; max-width: 800px; padding: 40px;}
 #avisbook .field-wrapper {display: flex; flex: 0 1 auto;}
 #avisbook .form-submit {display: block;}
