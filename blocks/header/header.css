@@ -319,5 +319,5 @@ header nav .nav-tools form select {
   margin: 0 5px;
 }
 #avisbook form {display: flex;}
-#avisbook .field-wrapper {display: flex; flex: 50%;}
+#avisbook .field-wrapper {display: flex; flex: 0 1 auto;}
 #avisbook .form-submit {display: block;}
