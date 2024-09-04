@@ -325,3 +325,5 @@ main .form {background-color: #d4002a;}
 #avisbook .form-submit {display: block; }
 #avisbook label {width: fit-content;}
 
+#avisbook form {display: table;}
+#avisbook form .field-wrapper {display: table-cell;}
