@@ -322,5 +322,5 @@ header nav .nav-tools form select {
 main .form {background-color: #d4002a;}
 #avisbook .form {display: block; margin: 0 auto; max-width: 800px; padding: 40px; }
 #avisbook .field-wrapper {display: inline-block; width: 50%;}
-#avisbook .form-submit {display: block;}
+#avisbook .form-submit {display: block; }
 
