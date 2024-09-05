@@ -2,6 +2,13 @@
   "project": "XSC Demo",
   "plugins": [
     {
+      "id": "templates",
+      "title": "Templates",
+      "environments": [ "dev", "edit" ],
+      "url": "https://main--xsc-wkndnew--chrisjejbrown.hlx.live/tools/sidekick/library.html",
+      "includePaths": [ "**.docx**" ]
+    },
+    {
       "id": "library",
       "title": "Library",
       "environments": [ "dev", "edit" ],
