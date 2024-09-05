@@ -5,7 +5,7 @@
       "id": "library",
       "title": "Library",
       "environments": [ "dev", "edit" ],
-      "url": "https://main--xsc-wknd--hlxsites.hlx.page/tools/sidekick/library.html",
+      "url": "https://main--xsc-wkndnew--chrisjejbrown.hlx.live/tools/sidekick/library.html",
       "includePaths": [ "**.docx**" ]
     },
     {
