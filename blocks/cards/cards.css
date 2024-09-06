@@ -12,9 +12,6 @@
   background-color: var(--background-color)
 }
 
-.cards.light > ul > li {
-  background-color: var(--background-color-light)
-}
 
 .cards .cards-card-body {
   margin: 16px;
@@ -32,4 +29,12 @@
   width: 100%;
   aspect-ratio: 4 / 3;
   object-fit: cover;
+}
+
+/* chris */
+.cards.light > ul > li {
+  background-color: var(--background-color-light)
+}
+.cards.light a.button:any-link {
+  background-color: var(--highlight-background-color)
 }
