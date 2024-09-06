@@ -49,3 +49,9 @@
 }
 .cards.across .cards-card-image { grid-area: image; }
 .cards.across .cards-card-body { grid-area: body; }
+
+@media (min-width: 600px) {
+  .cards > ul > li img {
+    aspect-ratio: 1 / 2;
+  }
+}
