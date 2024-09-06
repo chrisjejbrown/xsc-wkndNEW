@@ -45,6 +45,7 @@
 } 
 .cards.across > ul > li {
   display: grid;
+  grid-template-columns: auto;
 }
 .cards.across .cards-card-image { grid-area: image; }
 .cards.across .cards-card-body { grid-area: body; }
