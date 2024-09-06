@@ -40,6 +40,6 @@
 }
 .cards.across > ul {
   display: grid;
-grid-template-rows: repeat(auto-fill, minmax(278px, 1fr));
-grid-gap: 16px;
+  grid: 'image text text';
+  grid-gap: 10px;
 } 
