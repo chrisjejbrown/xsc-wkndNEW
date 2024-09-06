@@ -45,7 +45,7 @@
   display: grid;
   grid-gap: 10px;
   grid: 'image body body';
-  grid-template-columns: auto;
+  grid-template-columns: 320px auto auto;
   margin-bottom: 50px;
 }
 .cards.across .cards-card-image { grid-area: image; }
