@@ -40,11 +40,12 @@
 }
 .cards.across > ul {
   display: grid;
-  grid: 'image body body';
+
   grid-gap: 10px;
 } 
 .cards.across > ul > li {
   display: grid;
+  grid: 'image body body';
   grid-template-columns: auto;
 }
 .cards.across .cards-card-image { grid-area: image; }
