@@ -40,6 +40,8 @@
 }
 .cards.across > ul {
   display: grid;
-  grid: 'image text text';
+  grid: 'image body body';
   grid-gap: 10px;
 } 
+.cards.across .cards-card-image { grid-area: image; }
+.cards.across .cards-card-body { grid-area: body; }
