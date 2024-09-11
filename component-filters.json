@@ -47,5 +47,11 @@
     "components": [
       "slide"
     ]
+  },
+  {
+    "id": "gallery",
+    "components": [
+      "galleryitem"
+    ]
   }
 ]
