@@ -1,6 +1,7 @@
 {
   "mappings": [
     "/content/xsc-wkndNEW/:/",
+    "/content/AgilentEdge/:/",
     "/content/xsc-wkndNEW/configuration:/.helix/config.json"
   ]
 }
