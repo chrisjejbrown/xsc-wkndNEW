@@ -227,7 +227,7 @@
           }
         },   
         {
-          "title": "Exxxperience Fragment",
+          "title": "Experience Fragment",
           "id": "fragment",
           "plugins": {
             "xwalk": {
