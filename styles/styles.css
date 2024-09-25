@@ -385,3 +385,4 @@ body.noscroll {
 }
 
 
+main .section:nth-child(even) {background-color: #000;}
