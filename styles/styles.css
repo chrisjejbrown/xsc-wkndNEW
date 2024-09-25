@@ -242,5 +242,3 @@ main .section.light,
 main .section.highlight {
   background-color: var(--light-color);
 }
-
-main .section:nth-child(odd) {background-color: #000000; color: #ffffff !important;};
