@@ -34,11 +34,17 @@
   --button-border-radius: 5px;
   --button-padding: 5px 10px;
   --icon-visibility: none;
+  --text-color: #000514;
+--link-color: #000514;
+--background-color: #ffffff;
+--overlay-background-color: #eeeeee;
+--highlight-background-color: #cccccc;
 
   /* fonts */
-  --body-font-family: adobe-clean-light, 'helvetica neue', helvetica, ubuntu, roboto, noto, sans-serif;
-  --heading-font-family: adobe-clean-regular, 'helvetica neue', helvetica, ubuntu, roboto, noto, sans-serif;
-  --fixed-font-family: 'Roboto Mono', menlo, consolas, 'Liberation Mono', monospace;
+
+  --heading-font-family: Figtree, Arial, Helvetica;
+--body-font-family: Figtree, Arial, Helvetica;
+--fixed-font-family: "Roboto Mono", menlo, consolas, "Liberation Mono", monospace;
 
   /* body sizes */
   --body-font-size-m: 22px;
@@ -81,7 +87,20 @@
   --spacing-xxl: 80px;
   --spacing-xxxl: 104px;
 
+
+  --heading-font-size-xxl: 54px;
+--heading-font-size-xl: 44px;
+--heading-font-size-l: 36px;
+--heading-font-size-m: 25px;
+--heading-font-size-s: 21px;
+--heading-font-size-xs: 17px;
+--body-font-size-xxl: 22px;
+--body-font-size-xl: 18px;
+--body-font-size-l: 16px;
+--body-font-size-m: 14px;
 }
+
+
 
 @media (min-width: 600px) {
   :root {
@@ -365,4 +384,4 @@ body.noscroll {
   overflow: hidden;
 }
 
-main .scroll-container .card-content .detail-info-rail {background: #}
+
