@@ -690,7 +690,19 @@ async function loadSection(section, loadCallback) {
     section.style.display = null;
   }
 }
-
+/**
+ * Loads JS and CSS for all blocks in a container element.
+ * @param {Element} main The container element
+ */
+async function loadBlocks(main) {
+  updateSectionsStatus(main);
+  const blocks = [...main.querySelectorAll('div.block')];
+  for (let i = 0; i < blocks.length; i += 1) {
+    // eslint-disable-next-line no-await-in-loop
+    await loadBlock(blocks[i]);
+    updateSectionsStatus(main);
+  }
+}
 /**
  * Loads all sections.
  * @param {Element} element The parent element of sections to load
@@ -718,6 +730,7 @@ export {
   fetchPlaceholders,
   getMetadata,
   loadBlock,
+  loadBlocks,
   loadCSS,
   loadFooter,
   loadHeader,
