@@ -5,14 +5,14 @@
       "id": "templates",
       "title": "Templates",
       "environments": [ "dev", "edit" ],
-      "url": "https://main--wknd-oct24--chrisjejbrown.hlx.live/tools/sidekick/templates.html",
+      "url": "https://main--xsc-wkndnew--chrisjejbrown.hlx.live/tools/sidekick/templates.html",
       "includePaths": [ "**.docx**" ]
     },
     {
       "id": "library",
       "title": "Library",
       "environments": [ "dev", "edit" ],
-      "url": "https://main--wknd-oct24--chrisjejbrown.hlx.live/tools/sidekick/library.html",
+      "url": "https://main--xsc-wkndnew--chrisjejbrown.hlx.live/tools/sidekick/library.html",
       "includePaths": [ "**.docx**" ]
     },
     {
