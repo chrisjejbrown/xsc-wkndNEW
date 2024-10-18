@@ -1,7 +1,5 @@
 {
   "mappings": [
-    "/content/xsc-wkndNEW/:/",
-    "/content/xsc-wkndNEW/configuration:/.helix/config.json",
     "/content/demosite/:/",
     "/content/demosite/configuration:/.helix/config.json"
   ]
